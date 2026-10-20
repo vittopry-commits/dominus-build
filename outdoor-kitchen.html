@@ -247,8 +247,8 @@ function buildScene(){
  [].forEach(x=>{bb(x-0.22,x+0.22,0,0.9,4.38,4.82,M.brick,1.2);bb(x-0.27,x+0.27,0.9,0.96,4.33,4.87,M.white);const c=new THREE.Mesh(new THREE.ConeGeometry(0.38,0.09,4),M.white);c.rotation.y=Math.PI/4;c.position.set(x,1.005,4.6);c.castShadow=true;S.add(c)});
  /* house: back wall and side wall */
  bb(-3.5,3.4,0,3.6,-2.9,-2.5,M.clad,1.2);
- bb(-3.05,3.0,0,1.45,-2.5,-2.488,M.darkTile,2.4);
- bb(2.988,3.0,0,1.45,-2.488,2.5,M.darkTile,2.4);
+ bb(-3.05,3.0,0,2.45,-2.5,-2.488,M.darkTile,2.4);
+ bb(2.988,3.0,0,2.45,-2.488,2.5,M.darkTile,2.4);
  bb(-3.55,3.0,3.55,3.68,-4.8,-2.45,M.timber);bb(-3.5,3.0,0,3.55,-4.8,-2.9,M.clad,1.2);
  bb(-3.5,9,0,5.8,-11,-4.8,M.clad,1.2);bb(-3.55,9.05,5.8,5.9,-11,-4.75,M.timber);
  bb(-3.5,9,5.9,8.1,-11,-5.6,M.redTile,1.2);bb(-3.55,9.05,8.1,8.2,-11,-5.55,M.timber);
